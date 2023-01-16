@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+*,*:before,*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter';
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 134px;
+  font-family: 'Inika';
+  background-color: #EDF2EC;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.navbar {
+  position: absolute;
+  width: 1220px;
+  height: 50px;
+  margin: 42px 111px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: 400;
+}
+
+.nav {
+  width: 452px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+  color: #010201;
+}
+
+.btn-Home {
+  color: #E06733;
+  font-weight: 700;
+}
+
+.welcome {
+  height: 532px;
+  background-color: #EDF2EC;
+}
+
+.welcome-section {
+  position: absolute;
+  width: 1222px;
+  height: 407px;
+  margin: 62px 110px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome-image {
+  height: 407px;
+  width: 445px;
+}
+
+.welcome-content {
+  width: 549px;
+  height: 340px;
+  text-align: left;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.green-plants-text {
+  color: #499A18;
+}
+
+.welcome-text {
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+  margin: 42px 0 42px 0;
+}
+
+.welcome-btn {
+  width: 158px;
+  height: 44px;
+  border: solid 2px #E06733;
+  border-radius: 10px;
+  background-color: #EDF2EC;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about{
+  height: 666px;
+}
+
+.about-section {
+  position: absolute;
+  width: 1222px;
+  height: 479px;
+  margin: 93px 109px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content {
+  width: 605px;
+  height: 350px;
+  text-align: left;
+  margin-top: 67px;
+}
+
+h2 {
+  font-family: "Inika";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #499A18;
+  margin: 0;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  margin-top: 40px;
+}
+
+.about-plants-text {
+  color: #E06733;
+}
+
+.about-image {
+  height: 479px;
+  width: 464px;
+}
+
+.service {
+  height: 1300px;
+  background-color: #EDF2EC;
+  padding-top: 40px;
+}
+
+.service-content {
+  width: 1007px;
+  height: 94px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 109px;
+}
+
+.service-btns {
+  width: 559px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-btn {
+  width: 161px;
+  border: solid 1px #E06733;
+  border-radius: 5px;
+  font-family: 'Inika';
+  font-size: 20px;
+  color: #E06733;
+  background-color: #EDF2EC;
+}
+
+.services {
+  width: 1222px;
+  height: 955px;
+  display: grid;
+  grid-template-columns: repeat(3, 330px);
+  grid-template-rows: repeat(3, 450px);
+  gap: 55px 116px;
+  margin-top: 90px;
+  margin-left: 109px;
+}
+
+.service-item {
+  border: solid 1px #E3E1D5;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h3 {
+  color: #E06733;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.service-info {
+  font-size: 16px;
+  color: #717171;
+}
+
+.prices {
+  height: 560px;
+}
+
+.prices-wrapper {
+  width: 1222px;
+  height: 405px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 109px;
+}
+
+.prices-panel {
+  width: 333px;
+  height: 391px;
+}
+
+.prices-name {
+  font-family: 'Inter';
+  font-size: 40px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.prices-items {
+  width: 332px;
+  height: 282px;
+  padding: 34px 41px;
+  border: solid 1px #E3E1D5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  list-style-type: none;
+}
+
+.price-item {
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #EDF2EC;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-bottom: 32px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+  margin-top: 16px;
+}
+
+.price-item-name {
+  font-family: 'Inter';
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.prices-other-content {
+  width: 452px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: right;
+}
+
+.leafs-mini {
+  width: 152px;
+  height: 175px;
+  margin-top: 39px;
+  margin-left: 300px;
+}
+
+.btn-call-us {
+  width: 162px;
+  height: 50px;
+  border: solid 1px #E06733;
+  border-radius: 5px;
+  background-color: white;
+  font-family: 'Inika';
+  font-weight: 700;
+  font-size: 20px;
+  color: #E06733;
+  margin-top: 38px;
+}
+
+.contacts {
+  height: 550px;
+  background-color: #EDF2EC;
+}
+
+.contacts-wrapper {
+  width: 1222px;
+  display: flex;
+  margin-left: 109px;
+}
+
+.contacts-image{
+  margin-top: 53px;
+}
+
+.contacts-name {
+  font-weight: 700;
+  margin: 60px 0 0 113px;
+}
+
+.city {
+  width: 450px;
+  height: 50px;
+  background-color: #D6E7D2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 148px 0 0 64px;
+  padding: 0 35px 0 20px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.city-item-name {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+  color: #717171;
+  margin-top: 12px;
+}
+
+.footer {
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper {
+  width: 1222px;
+  height: 50px;
+  margin-left: 109px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.social-network {
+  width: 188px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.github {
+  width: 182px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 7px;
+}
+
+.rs-scool{
+  width: 211px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
